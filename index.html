@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my_grid_template_generator_basic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="user_input">
+
+        <div>
+            <label for="row_value">rows: </label> 
+            <input type="number" id="row_value" class="grid_input" min="2" placeholder="min = 2">
+        </div>
+       
+        <div>
+            <label for="col_value">columns: </label>  
+            <input type="number" id="col_value" class="grid_input" min="2" placeholder="min = 2">
+        </div>
+        
+        <div>
+            <label for="size_value">size: </label> 
+            <input type="number" id="size_value" class="grid_input" min="1" placeholder="size">
+        </div>
+        
+        <div>
+            <label for="gap_value">gap: </label> 
+            <input type="number" id="gap_value" class="grid_input" min="0" placeholder="gap">
+        </div>
+         
+        <div>
+            <button id="set_button" class="button">set</button>
+            <button id="reset_button" class="button">reset</button>
+        </div>
+    
+    </section>
+    
+
+    <!-- grid creation here: -->
+    <main class="main_wrap">
+    </main>
+
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
